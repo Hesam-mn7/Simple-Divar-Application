@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityGozareshMoshkel"
+    android:layoutDirection="rtl">
+    <TextView
+        android:id="@+id/tvmoshkel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="مشکل در کدام قسمت آگهی است ؟"
+        android:textStyle="bold"
+        android:textSize="@dimen/size_note"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/nazdik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvmoshkel"
+        android:text="@string/gozine_nazdik"
+        android:textSize="@dimen/size_note"
+        android:layout_margin="10dp"
+        android:textColor="#353535"/>
+    <RadioGroup
+        android:id="@+id/rggozaresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/nazdik"
+        android:layout_margin="10dp"
+        >
+        <RadioButton
+            android:id="@+id/rbmohtava"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="محتوای آگهی"
+            android:textSize="@dimen/size_note"
+            android:layout_marginTop="20dp"
+            />
+        <RadioButton
+            android:id="@+id/rbax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="عکس آگهی"
+            android:textSize="@dimen/size_note"
+            android:layout_marginTop="20dp"
+            />
+        <RadioButton
+            android:id="@+id/rbetelaat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="اطلاعات تماس"
+            android:textSize="@dimen/size_note"
+            android:layout_marginTop="20dp"
+            />
+        <RadioButton
+            android:id="@+id/rbgheymat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="قیمت"
+            android:textSize="@dimen/size_note"
+            android:layout_marginTop="20dp"
+            />
+        <RadioButton
+            android:id="@+id/rbkolahbardari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="کلاه برداری ، نقض قانون یا وقوع جرم"
+            android:textSize="@dimen/size_note"
+            android:layout_marginTop="20dp"
+            />
+        <RadioButton
+            android:id="@+id/rbaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="آدرس و نقشه"
+            android:textSize="@dimen/size_note"
+            android:layout_marginTop="20dp"
+            />
+        <RadioButton
+            android:id="@+id/rbmoshkel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مشکلات با صاحب آگهی"
+            android:textSize="@dimen/size_note"
+            android:layout_marginTop="20dp"
+            />
+        <RadioButton
+            android:id="@+id/rbnamojod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ناموجود بودن مورد آگهی"
+            android:textSize="@dimen/size_note"
+            android:layout_marginTop="20dp"
+            />
+
+    </RadioGroup>
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="#F4F4F4"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnenseraf"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_red"
+            android:text="انصراف"
+            android:textStyle="bold"
+            android:textColor="@color/colorRed"
+            android:textSize="@dimen/size_note"
+            android:layout_margin="10dp"/>
+        <Button
+            android:id="@+id/btntaiid"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_button_red"
+            android:text="تایید"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="@dimen/size_note"
+            android:layout_margin="10dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

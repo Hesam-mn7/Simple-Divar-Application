@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layoutDirection="rtl">
+
+    <HorizontalScrollView
+        android:id="@+id/scv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/listview">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+
+            <Button
+                android:id="@+id/btfilter"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="فیلترها"
+                android:textSize="15sp"
+                android:textColor="@color/tosi"
+                android:background="@drawable/shape_button"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:drawableRight="@drawable/ic_baseline_local_bar_24"
+                />
+            <Button
+                android:id="@+id/btdaste"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="دسته ها"
+                android:background="@drawable/shape_button"
+                android:textSize="15sp"
+                android:textColor="@color/tosi"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:drawableRight="@drawable/ic_baseline_format_list_bulleted_24"
+                />
+            <Button
+                android:id="@+id/btfroshaparteman"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@drawable/shape_button"
+                android:text="فروش آپارتمان"
+                android:textColor="@color/tosi"
+                android:textSize="15sp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"                 />
+            <Button
+                android:id="@+id/bttazini"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@drawable/shape_button"
+                android:text="تزئینی و آثار هنری"
+                android:textSize="15sp"
+                android:textColor="@color/tosi"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"                 />
+            <Button
+                android:id="@+id/btsystem"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@drawable/shape_button"
+                android:text="سیستم صوتی خانگی"
+                android:textSize="15sp"
+                android:textColor="@color/tosi"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"                 />
+            <Button
+                android:id="@+id/btmobl"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@drawable/shape_button"
+                android:text="مبلمان و صندلی راحتی"
+                android:textSize="15sp"
+                android:textColor="@color/tosi"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"                 />
+            <Button
+                android:id="@+id/btvasilekhab"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@drawable/shape_button"
+                android:text="وسایل تخت و اتاق خواب"
+                android:textSize="15sp"
+                android:textColor="@color/tosi"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"                 />
+            <Button
+                android:id="@+id/btkhodro"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@drawable/shape_button"
+                android:text="خودرو سواری"
+                android:textColor="@color/tosi"
+                android:textSize="15sp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"                 />
+            <Button
+                android:id="@+id/btejare"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@drawable/shape_button"
+                android:text="اجاره آپارتمان"
+                android:textColor="@color/tosi"
+                android:textSize="15sp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"                 />
+            <Button
+                android:id="@+id/btmobile"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@drawable/shape_button"
+                android:text="موبایل"
+                android:textColor="@color/tosi"
+                android:textSize="15sp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"                 />
+            <Button
+                android:id="@+id/btheyvan"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@drawable/shape_button"
+                android:text="حیوانات"
+                android:textColor="@color/tosi"
+                android:textSize="15sp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"                 />
+            <Button
+                android:id="@+id/btvasileshakhsi"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@drawable/shape_button"
+                android:text="وسایل شخصی"
+                android:textColor="@color/tosi"
+                android:textSize="15sp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"                 />
+            <Button
+                android:id="@+id/btagahifroshghahi"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@drawable/shape_button"
+                android:text="فقط آگهی های فروشگاهی"
+                android:textSize="15sp"
+                android:textColor="@color/tosi"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"                 />
+            <Button
+                android:id="@+id/btmahal"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@drawable/shape_button"
+                android:text="تعیین محل"
+                android:textColor="@color/tosi"
+                android:textSize="15sp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <View
+        android:id="@+id/view"
+        style="@style/view2"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/scv"/>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingBottom="110dp"
+        app:layout_constraintTop_toBottomOf="@id/view"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="horizontal"
+        android:background="#F4F4F4"
+        >
+        <Button
+            android:id="@+id/btagahi"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="آگهی ها"
+            android:paddingTop="5dp"
+            android:textColor="@color/colorRed"
+            android:background="#F4F4F4"
+            android:drawableTop="@drawable/smal_divar"
+
+            />
+        <Button
+            android:id="@+id/btdasteha"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="دسته ها"
+            android:paddingTop="5dp"
+            android:drawableTop="@drawable/ic_baseline_list_24"
+            android:background="#F4F4F4"
+            />
+        <Button
+            android:id="@+id/btsabt"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="ثبت آگهی"
+            android:paddingTop="5dp"
+            android:background="#F4F4F4"
+            android:drawableTop="@drawable/ic_baseline_add_circle_24"/>
+        <Button
+            android:id="@+id/btchat"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="چت"
+            android:paddingTop="5dp"
+            android:background="#F4F4F4"
+            android:drawableTop="@drawable/ic_baseline_chat_bubble_24"/>
+        <Button
+            android:id="@+id/btdivareman"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="دیوار من"
+            android:paddingTop="5dp"
+            android:background="#F4F4F4"
+            android:drawableTop="@drawable/ic_outline_account_box_24"/>
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

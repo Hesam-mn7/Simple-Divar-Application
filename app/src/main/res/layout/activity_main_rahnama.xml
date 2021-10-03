@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityRahnama">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="آخرین به روز رسانی : 29 مرداد 1398"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="معاملهٔ حضوری؛ امن‌ترین راه معامله :"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="@dimen/size_note"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/hozori"
+                android:textColor="#000"
+                android:textSize="@dimen/size_note"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="نکات مهم در انتقال وجه:"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="@dimen/size_note"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/nokte"
+                android:textColor="#000"
+                android:textSize="@dimen/size_note"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="نکات مهم پیش از معامله:"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="@dimen/size_note"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/nokte_pish_moamele"
+                android:textColor="#000"
+                android:textSize="@dimen/size_note"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="امکان معاملهٔ حضوری وجود ندارد؟ دقت کنید:"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="@dimen/size_note"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/deghat"
+                android:textColor="#000"
+                android:textSize="@dimen/size_note"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="نقش دیوار در معاملات:"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="@dimen/size_note"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/naghs_divar"
+                android:textColor="#000"
+                android:textSize="@dimen/size_note"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="زنگ خطرها در معامله؛ بیشتر احتیاط کنید وقتی:"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="@dimen/size_note"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/khatar"
+                android:textColor="#000"
+                android:textSize="@dimen/size_note"
+                android:layout_margin="10dp"/>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    tools:context=".MainActivityChatDivar">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="با لمس دکمه چت در صفحه هر آگهی ، می توانید به فروشنده پیام دهید. همچنین برای دریافت پیام درباره آگهی خود، لازم است هنگام ثبت آگهی چت دیوار را فعال کنید."
+        android:textSize="@dimen/size_note"
+        app:layout_constraintBottom_toTopOf="@id/lll"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/lll"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#F4F4F4"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/btagahi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F4F4F4"
+            android:drawableTop="@drawable/smal_divar"
+            android:paddingTop="5dp"
+            android:text="آگهی ها"
+            android:textColor="#000"
+            />
+
+        <Button
+            android:id="@+id/btdasteha"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F4F4F4"
+            android:drawableTop="@drawable/ic_baseline_list_24"
+            android:paddingTop="5dp"
+            android:text="دسته ها"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/btsabt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F4F4F4"
+            android:drawableTop="@drawable/ic_baseline_add_circle_24"
+            android:paddingTop="5dp"
+            android:text="ثبت آگهی"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/btchat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F4F4F4"
+            android:drawableTop="@drawable/ic_baseline_chat_red"
+            android:paddingTop="5dp"
+            android:text="چت"
+            android:textColor="@color/colorRed"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btdivareman"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F4F4F4"
+            android:drawableTop="@drawable/ic_outline_account_box_24"
+            android:paddingTop="5dp"
+            android:text="دیوار من"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

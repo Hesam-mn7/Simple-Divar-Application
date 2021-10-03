@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.divarhesam">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/divar"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/divar"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivityMyAgahi"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivityDarbareMa"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivityHesabKarbari"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MainActivityChatDivar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivityVorodCode"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivityVorod"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivityEdit"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivitySabtAgahi"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainActivityGozareshMoshkel"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivityRahnama"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivityPic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivityDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivityDaste"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

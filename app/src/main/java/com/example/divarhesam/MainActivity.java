@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowCustomEnabled(true);
         getSupportActionBar().setTitle("");
         
-        //test
+        //test12
 
         init();
         initlistview();
